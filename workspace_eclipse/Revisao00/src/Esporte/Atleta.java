@@ -1,9 +1,7 @@
 package Esporte;
 
-public class Atleta extends Pessoa{
-	
+public class Atleta extends Pessoa {
 	Integer peso;
-	
 	Boolean aposentado;
 
 	public Atleta(String nome, Integer idade, Integer peso, Boolean aposentado) {
@@ -11,16 +9,13 @@ public class Atleta extends Pessoa{
 		this.peso = peso;
 		this.aposentado = aposentado;
 	}
-	
-	void aquecer () {
+
+	void aquecer() {
 		System.out.println("Atleta aquecido");
 	}
-	
-	void aposentar () {
+
+	void aposentar() {
 		this.aposentado = true;
 	}
-	
-	
-	
 
 }

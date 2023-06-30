@@ -2,7 +2,7 @@ package avancado;
 
 import java.util.Comparator;
 
-public class ComparadorPorNome implements Comparator<Animal>{
+public class ComparadorPorNome implements Comparator<Animal> {
 
 	@Override
 	public int compare(Animal a1, Animal a2) {

@@ -3,9 +3,7 @@ package builder.pizzaria;
 public class Pizza {
 
 	private Integer size = 0;
-	
 	private Boolean flagCheese = false;
-	
 	private Boolean flagPepperoni = false;
 
 	public Integer getSize() {
@@ -31,7 +29,5 @@ public class Pizza {
 	public void setFlagPepperoni(Boolean flagPepperoni) {
 		this.flagPepperoni = flagPepperoni;
 	}
-	
-	
-	
+
 }

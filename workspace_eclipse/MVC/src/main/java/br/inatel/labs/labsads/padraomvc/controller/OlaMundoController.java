@@ -8,10 +8,10 @@ public class OlaMundoController {
 
 	@GetMapping("/ola")
 	public String getOla() {
-		
-		model.addAttribute("usuario", "Lucas");
-		
+
+		// model.addAttribute("usuario", "Joao");
+
 		return "ola-mundo";
 	}
-	
+
 }
